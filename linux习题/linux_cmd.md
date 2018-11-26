@@ -4,9 +4,13 @@
 
   ls -lah /home/d*
 
+  find ./ -name 'd*' -type d -exec ls -ldh {} \;
+
 2. ##### 列出/home 目录中所有以”s”开头的目录。
 
   ls -d s*/
+
+  find ~ -name 's*' -type d -exec ls -dhl {} ";"
 
 3. ##### 删除后缀名为.log 的所有，删除前逐一询问
 
@@ -20,9 +24,11 @@
 
    ls ~ -la |grep *.py > test1.txt
 
+   ls -R -la ~ |grep '.py$'
+
 6. ##### 使用ls查看根目录 并且每行显示3个信息
 
-   ls -w 25
+ls ~ | xargs -n 3
 
 7. ##### 查看所有进程信息,只查看前3行
 
