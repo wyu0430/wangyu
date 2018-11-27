@@ -1,6 +1,6 @@
 
 #### 1.使用socket服务器来传递文件
-<a href="file_receive.py">接受文件: /file_receiver.py</a>
+<a href="file_receive.py">接受文件: /file_receive.py</a>
 <a href="file_send.py">发送文件: /socketwork/file_send.py</a>
 
 #### 2.书写udp客户端
