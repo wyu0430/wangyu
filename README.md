@@ -17,6 +17,16 @@
 
 <a href="async作业/async.md">8. async作业</a>
 
+#### 
+
+
+
+##### django 网页作业仓库地址
+
+https://github.com/wyu0430/shop
+
+或者https://gitee.com/wyu0430/shop
+
 
 
 
